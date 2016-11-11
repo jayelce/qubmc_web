@@ -2,8 +2,8 @@
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #ffffff;
-  background: #1D77BB;
+  color: #000000;
+  background: #ffffff;
 }
 h1,
 h2,
@@ -26,8 +26,40 @@ p {
 .font-bold {
   font-weight: 700;
 }
+
+.header {
+    height:100px;
+    background:#389090;
+}
+
+.header img {
+    float:left;
+    width:100px;
+    height:auto;
+}
+
+.header h1 {
+    position:relative;
+    top:18px;
+    left:10px;
+}
+
+.h1title {
+    font-size: 70px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.img {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: inherit;
+    max-width: 10%;
+    height: auto;
+}
+
 .starter-template {
-  margin-top: 250px;
+  margin-top: 100px;
 }
 .starter-template .content {
   margin-left: 10px;
@@ -38,14 +70,14 @@ p {
 }
 .starter-template .content h1 .smaller {
   font-size: 40px;
-  color: #f2b7bd;
+  color: #35427C;
 }
 .starter-template .content .lead {
   font-size: 25px;
-  color: #f2b7bd;
+  color: #35427C;
 }
 .starter-template .content .lead .font-normal {
-  color: #ffffff;
+  color: #111111;
 }
 .starter-template .links {
   float: right;
@@ -69,28 +101,28 @@ p {
   margin-right: 0;
 }
 .starter-template .links ul li.current-version {
-  color: #f2b7bd;
+  color: #35427C;
   font-weight: 400;
 }
 .starter-template .links ul li a, a {
-  color: #f2b7bd;
+  color: #35427C;
   text-decoration: underline;
 }
 .starter-template .links ul li a:hover, a:hover {
-  color: #ffffff;
+  color: #000000;
   text-decoration: underline;
 }
 .starter-template .links ul li .icon-muted {
-  color: #eb8b95;
+  color: #35427C;
   margin-right: 5px;
 }
 .starter-template .links ul li:hover .icon-muted {
-  color: #ffffff;
+  color: #000000;
 }
 .starter-template .copyright {
   margin-top: 10px;
   font-size: 0.9em;
-  color: #f2b7bd;
+  color: #35427C;
   text-transform: lowercase;
   float: right;
   right: 0;
