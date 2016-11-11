@@ -1,0 +1,3 @@
+[run]
+source = qubmc_web
+omit = qubmc_web/test*
