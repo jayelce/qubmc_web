@@ -1,9 +1,17 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url('https://fonts.googleapis.com/css?family=Abel|Alfa+Slab+One');
+
+* {
+  margin:0;
+  padding:0;
+}
+
 body {
+  padding:0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #000000;
-  background: #ffffff;
+  color: #1d2120;
+  background: #5a5c51;
 }
 h1,
 h2,
@@ -12,7 +20,7 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 p {
   font-weight: 300;
@@ -28,159 +36,47 @@ p {
 }
 
 .header {
-    height:100px;
-    background:#389090;
+    background:#1d2120;
+    height:3.2vw;
+    min-height: 42px;
 }
 
 .header img {
+    margin-top: .2vw;
+    margin-left: .5vw;
     float:left;
-    width:100px;
-    height:auto;
+    width:auto;
+    height: 4vw;
+    min-height: 46px;
+
 }
 
-.header h1 {
+.qubmc-title {
+
+}
+
+.qubmc-title .qub {
     position:relative;
-    top:18px;
-    left:10px;
+    left: 1vw;
+    top: .3vw;
+    color: #5a5c51;
+    white-space: nowrap;
+    font-family: 'Abel', sans-serif;
+    font-size:calc(10px + 1vw);
+
 }
 
-.h1title {
-    font-size: 70px;
-    font-weight: bold;
-    color: #FFFFFF;
+.qubmc-title .mc {
+  position:relative;
+  left: 1vw;
+  top: 0;
+  font-size:calc(10px + 1.1vw);
+  white-space: nowrap;
+  color: #5a5c51;
 }
 
-.img {
-    margin-left: 10px;
-    margin-top: 10px;
-    width: inherit;
-    max-width: 10%;
-    height: auto;
-}
-
-.starter-template {
-  margin-top: 100px;
-}
-.starter-template .content {
-  margin-left: 10px;
-}
-.starter-template .content h1 {
-  margin-top: 10px;
-  font-size: 60px;
-}
-.starter-template .content h1 .smaller {
-  font-size: 40px;
-  color: #35427C;
-}
-.starter-template .content .lead {
-  font-size: 25px;
-  color: #35427C;
-}
-.starter-template .content .lead .font-normal {
-  color: #111111;
-}
-.starter-template .links {
-  float: right;
-  right: 0;
-  margin-top: 125px;
-}
-.starter-template .links ul {
-  display: block;
-  padding: 0;
-  margin: 0;
-}
-.starter-template .links ul li {
-  list-style: none;
-  display: inline;
-  margin: 0 10px;
-}
-.starter-template .links ul li:first-child {
-  margin-left: 0;
-}
-.starter-template .links ul li:last-child {
-  margin-right: 0;
-}
-.starter-template .links ul li.current-version {
-  color: #35427C;
-  font-weight: 400;
-}
-.starter-template .links ul li a, a {
-  color: #35427C;
-  text-decoration: underline;
-}
-.starter-template .links ul li a:hover, a:hover {
-  color: #000000;
-  text-decoration: underline;
-}
-.starter-template .links ul li .icon-muted {
-  color: #35427C;
-  margin-right: 5px;
-}
-.starter-template .links ul li:hover .icon-muted {
-  color: #000000;
-}
-.starter-template .copyright {
-  margin-top: 10px;
-  font-size: 0.9em;
-  color: #35427C;
-  text-transform: lowercase;
-  float: right;
-  right: 0;
-}
-@media (max-width: 1199px) {
-  .starter-template .content h1 {
-    font-size: 45px;
-  }
-  .starter-template .content h1 .smaller {
-    font-size: 30px;
-  }
-  .starter-template .content .lead {
-    font-size: 20px;
-  }
-}
-@media (max-width: 991px) {
-  .starter-template {
-    margin-top: 0;
-  }
-  .starter-template .logo {
-    margin: 40px auto;
-  }
-  .starter-template .content {
-    margin-left: 0;
-    text-align: center;
-  }
-  .starter-template .content h1 {
-    margin-bottom: 20px;
-  }
-  .starter-template .links {
-    float: none;
-    text-align: center;
-    margin-top: 60px;
-  }
-  .starter-template .copyright {
-    float: none;
-    text-align: center;
-  }
-}
-@media (max-width: 767px) {
-  .starter-template .content h1 .smaller {
-    font-size: 25px;
-    display: block;
-  }
-  .starter-template .content .lead {
-    font-size: 16px;
-  }
-  .starter-template .links {
-    margin-top: 40px;
-  }
-  .starter-template .links ul li {
-    display: block;
-    margin: 0;
-  }
-  .starter-template .links ul li .icon-muted {
-    display: none;
-  }
-  .starter-template .copyright {
-    margin-top: 20px;
-  }
+.blog-img {
+  float:left;
+  width:10vw;
+  height:auto;
 }
