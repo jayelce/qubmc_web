@@ -38,17 +38,32 @@ p {
 .header {
     background:#1d2120;
     height:3.2vh;
+    width:100%;
     min-height: 42px;
+    position: fixed;
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    -khtml-opacity: 0.8;
+    opacity: 0.8;
+    /*Opacity end*/
 }
 
-.header img {
+.head-img {
     margin-top: .2vh;
     margin-left: .5vw;
     float:left;
     width:auto;
     height: 4vh;
     min-height: 46px;
-
+    /*Opacity start*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    opacity: 1;
+    /*Opacity end*/
 }
 
 .qubmc-title {
@@ -63,7 +78,6 @@ p {
     white-space: nowrap;
     font-family: 'Abel', sans-serif;
     font-size:calc(10px + 1vw);
-
 }
 
 .qubmc-title .mc {
@@ -80,3 +94,15 @@ p {
   width:10vh;
   height:auto;
 }
+
+.poster {
+    /*display: block;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 930px;*/
+    margin-top:calc(42px+3.2vh) ;
+    width:100%;
+    
+    height:auto;
+}
+
