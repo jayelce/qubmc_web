@@ -37,16 +37,16 @@ p {
 
 .header {
     background:#1d2120;
-    height:3.2vw;
+    height:3.2vh;
     min-height: 42px;
 }
 
 .header img {
-    margin-top: .2vw;
+    margin-top: .2vh;
     margin-left: .5vw;
     float:left;
     width:auto;
-    height: 4vw;
+    height: 4vh;
     min-height: 46px;
 
 }
@@ -77,6 +77,6 @@ p {
 
 .blog-img {
   float:left;
-  width:10vw;
+  width:10vh;
   height:auto;
 }
