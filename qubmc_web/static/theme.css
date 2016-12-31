@@ -7,7 +7,7 @@
 }
 
 .padding-div {
-    padding-top:55px;
+    padding-top:50px;
 }
 
 .navbar-crest {
@@ -26,6 +26,7 @@
     margin-bottom: 0px;
     z-index: 1;
     width: 100%;
+    top: 0px; 
 }
 
 .list-edit {
@@ -42,10 +43,75 @@
 	justify-content: center;
 	flex-wrap: wrap;
 }
-@media (min-width: 768px) {
+
+
+div.wrapper {
+    width:100%;
+    padding:0px;
+    margin: 0px;
+    padding-top: 2px;
+ }
+ 
+div.image {
+    display: inline-block;
+    width:100%;
+    padding-top: 2px;
+}
+
+div.firstimage {
+    display: inline-block;
+    width:100%;
+    padding-top: 2px;
+}
+
+.login-panel {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+}
+
+.botimg1 {
+    width:100%;
+}
+
+.botimg2 {
+    width:100%;
+}
+
+@media (min-width: 769px) {
 	.navbar-nav {
 		float: none;
 	}
+    
+    div.wrapper {
+    width:100%;
+    padding:0px;
+    margin: 0px;
+    padding-top: 2px;
+ }
+
+    div.image {
+        display: inline-block;
+        width:33%;
+        padding-top: 5px;
+    }
+
+    div.firstimage {
+        display: inline-block;
+        width:33%;
+        padding-top: 5px;
+    }
 }
+
+.footer {
+    padding: 5px;
+}
+
+.panel-edit {
+}
+
+
+
 
 
