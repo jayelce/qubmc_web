@@ -9,10 +9,12 @@
         </ol>
         <div class="carousel-inner carousel-width">
             <div class="item active">
-                <img class="first-slide carousel-width" src="{{request.static_url('qubmc_web:static/scotlandtrip1.jpg')}}" alt="First slide">
+                <img class="first-slide carousel-width" src="{{request.static_url('qubmc_web:static/elchorro1.jpg')}}" alt="First slide">
+                <div class="carousel-caption"><h3 class="carouselText">Spain Trip</h3></div>
             </div>
             <div class="item">
-                <img class="second-slide carousel-width" src="{{request.static_url('qubmc_web:static/spaintrip1.jpg')}}" alt="Second slide">
+                <img class="second-slide carousel-width" src="{{request.static_url('qubmc_web:static/scotland1.jpg')}}" alt="Second slide">
+                <div class="carousel-caption"><h3 class="carouselText">Scotland Trip</h3></div>
             </div>
         </div>
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -30,9 +32,18 @@
 {% block bottombanner %}
 
          <div class="wrapper">
-            <div class="firstimage"><a href="#"><img class="botimg1" src="{{request.static_url('qubmc_web:static/committee1.jpg')}}"></a></div>
-            <div class="image"><a href="#"><img class="botimg1" src="{{request.static_url('qubmc_web:static/fresherstrip1.jpg')}}"></a></div>
-            <div class="image"><a href="#"><img class="botimg2" src="{{request.static_url('qubmc_web:static/freshersweek1.jpg')}}"></a></div>
+            <div class="firstimage">
+                <a href="#"><img class="botimg" src="{{request.static_url('qubmc_web:static/committee1.jpg')}}"></a>
+                <p unselectable="on" class="imgDesc img1">Your Committee</p>
+            </div>
+            <div class="image">
+                <a href="#"> <img class="botimg" src="{{request.static_url('qubmc_web:static/fresherstrip1.jpg')}}"></a>
+                <p unselectable="on" class="imgDesc img2">Freshers' Trip</p>
+            </div>
+            <div class="image">
+                <a href="#"><img class="botimg" src="{{request.static_url('qubmc_web:static/freshersweek1.jpg')}}"></a>
+                <p unselectable="on" class="imgDesc img3">Freshers' Week</p>
+            </div>
             <div style="clear: both"></div>
         </div>
     
@@ -98,21 +109,16 @@
 
 {% block footer %}
     
-    <div class="footer">
-        <div class="panel panel-default">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="align-centre col-xs-6">
-                                Queen's University Belfast
-                            </div>
-                            <div class="align-centre col-xs-6">
-                                committee@qubmc.co.uk
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
+        <nav class="navbar navbar-light navbar-edit" >
+            <div class="container-fluid">                
+                    <ul class="nav navbar-nav">
+                        <li><a href="mailto:committee@qubmc.co.uk">CONTACT</a></li>
+                        <li><a href="https://docs.google.com/document/d/195oeHsWlYZvX49lwNR0L1a8pNHC0gMspxdHHBcx3v80/edit">CONSTITUTION</a></li>
+                        <li><a href="http://www.qubsu.org/">STUDENTS' UNION</a></li>
+                        <li><a href="http://www.queenssport.com/">QUEEN'S SPORT</a></li>
+                    </ul>
+                    
+            </div>
+        </nav>
     
 {% endblock %}
